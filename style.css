@@ -1,0 +1,102 @@
+body {
+    background-image: url("./flowers.jpg") ;
+    background-size: 100%;
+} 
+#Motracine {
+    margin-left: 70%;
+    font-size: 60px;
+    color: white;
+    font-family: monospace;
+
+}
+#Proposition {
+    margin-left: 50%;
+    font-size: 40px;
+    color: white;
+    font-family: monospace;
+
+}
+#Motracinein {
+    text-transform: uppercase;
+    margin-left: 0%;
+    width: 200px;
+}
+
+#Proposition {
+    display: none;
+    text-transform: uppercase;
+    margin-left: 50%;
+}
+#lettrediv {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+
+}
+#longueurmot {
+    background-color: cornsilk;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+
+}
+#lettre {
+    background-color: cornsilk;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+
+}
+
+.evolution1 {
+    display: none;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+.evolution2 {
+    display: none;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+.evolution3 {
+    display: none;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+.evolution4 {
+    display: none;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+.evolution5 {
+    display: none;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+.evolution6 {
+    display: none;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+.evolution7 {
+    display: none;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+.evolution8 {
+    display: none;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+.attention {
+    background-color: cornsilk;
+    width: 50%;
+    margin-left: 0%;
+    font-size: 30px;
+    color: rgb(237, 56, 56);
+    font-family: monospace;
+}

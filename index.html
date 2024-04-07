@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id ="Motracine">
+        <form action="" method="post" id="form1">
+            <p><label for="Motracinein">Tapes le mot à deviner :</label></p>
+            <input type="password" id="Motracinein"  placeholder="Kiki, banane ...." name="Motracinein"></input>
+            <button type="submit">C'est parti !</button>
+        </form>
+    </div>
+    <div id ="Proposition">
+        <form action="" method="post" id="form2">
+            <p><label for="Propositionletter">Choisis une lettre entre A - Z</label></p>
+            <input id="Propositionletter"  placeholder="Une lettre à la fois" name="Propositionletter" maxlength ="1"></input>
+            <button type="submit">Je tente</button>
+        </form>
+    </div>
+         <div id ="lettrediv "> 
+            <p class = "lettre" id ="longueurmot"></p>
+            <span class = "lettre" id ="lettre"></span>
+
+            <p class = "attention"  id ="attention"> </p>
+         </div> 
+
+    <div class = "imagependu">
+        <span class = "evolution1" id ="evolution1"><img src="./pendu1.png" alt="pendu1"></span>
+        <span class = "evolution2" id ="evolution2"><img src="./pendu2.png" alt="pendu2"></span>
+        <span class = "evolution3" id ="evolution3"><img src="./pendu3.png" alt="pendu3"></span>
+        <span class = "evolution4" id ="evolution4"><img src="./pendu4.png" alt="pendu4"></span>
+        <span class = "evolution5" id ="evolution5"><img src="./pendu5.png" alt="pendu5"></span>
+        <span class = "evolution6" id ="evolution6"><img src="./pendu6.png" alt="pendu6"></span>
+        <span class = "evolution7" id ="evolution7"><img src="./pendu7.png" alt="pendu7"></span>
+        <span class = "evolution8" id ="evolution8"><img src="./pendu8perdu.png" alt="pendu8perdu"></span>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
